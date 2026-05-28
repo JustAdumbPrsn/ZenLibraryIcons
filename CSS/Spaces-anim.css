@@ -1,0 +1,53 @@
+/* Spaces Keyframes */
+@keyframes zenSpacesBackBounce {
+  0% {
+    transform: translate(51.28px, 61.69px) rotate(-17.5deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.21, 0, 0.56, 1);
+  }
+  34.28% {
+    transform: translate(56.28px, 72.19px) rotate(6deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.38, 0, 0.55, 1);
+  }
+  62.86% {
+    transform: translate(51.28px, 55.52px) rotate(-27.83deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.73, 0, 0.63, 1);
+  }
+  100% {
+    transform: translate(51.28px, 61.69px) rotate(-17.5deg) translate(-35.022px, -44.68px);
+  }
+}
+
+@keyframes zenSpacesFrontBounce {
+  0% {
+    transform: translate(77.02px, 75.93px) rotate(0deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.21, 0, 0.56, 1);
+  }
+  31.43% {
+    transform: translate(77.02px, 78.18px) rotate(-5deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.38, 0, 0.55, 1);
+  }
+  54.28% {
+    transform: translate(77.02px, 55.71px) rotate(28.96deg) translate(-35.022px, -44.68px);
+    animation-timing-function: cubic-bezier(0.73, 0, 0.63, 1);
+  }
+  100% {
+    transform: translate(77.02px, 75.93px) rotate(0deg) translate(-35.022px, -44.68px);
+  }
+}
+
+/* Use something like this when the button is active */
+.zen-spaces-back-card {
+  animation: zenSpacesBackBounce 0.583s forwards;
+}
+.zen-spaces-front-card {
+  animation: zenSpacesFrontBounce 0.583s forwards;
+}
+
+/* Set solid and gradient fill opacities when button is active */
+.zen-spaces-bg {
+  fill-opacity: 1 !important;
+}
+
+.zen-spaces-gradient {
+  fill-opacity: 0.1 !important;
+}

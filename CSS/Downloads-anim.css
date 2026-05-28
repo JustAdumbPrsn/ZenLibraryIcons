@@ -1,0 +1,66 @@
+/* Downloads keyframes */
+@keyframes zenDownloadsArrowBounce {
+  0% {
+    transform: translateY(0px);
+    d: path('M 64 45 L 64 83 M 50 69 L 64 83 L 78 69');
+    animation-timing-function: cubic-bezier(0.33, 0, 0.7, 1.28);
+  }
+  31.43% {
+    transform: translateY(10px);
+    d: path('M 64 57 L 64 83 M 50 69 L 64 83 L 78 69');
+    animation-timing-function: cubic-bezier(0.44, 0.2, 0.44, 0.98);
+  }
+  60% {
+    transform: translateY(-10.83px);
+    d: path('M 64 45 L 64 83 M 50 69 L 64 83 L 78 69');
+    animation-timing-function: cubic-bezier(0.45, -0.03, 0.83, 0.9);
+  }
+  85.71% {
+    transform: translateY(0.66px);
+    d: path('M 64 45 L 64 83 M 50 69 L 64 83 L 78 69');
+    animation-timing-function: cubic-bezier(0.17, -0.98, 0.83, 0.83);
+  }
+  100% {
+    transform: translateY(0px);
+    d: path('M 64 45 L 64 83 M 50 69 L 64 83 L 78 69');
+  }
+}
+
+@keyframes zenDownloadsCircleBounce {
+  0% {
+    transform: translateY(0px);
+    animation-timing-function: cubic-bezier(0.33, 0, 0.71, 2.31);
+  }
+  31.43% { 
+    transform: translateY(2.5px);
+    animation-timing-function: cubic-bezier(0.23, 0.15, 0.36, 0.97);
+  }
+  54.29% { 
+    transform: translateY(-11.46px);
+    animation-timing-function: cubic-bezier(0.48, -0.04, 0.83, 0.89);
+  }
+  85.71% { 
+    transform: translateY(0.85px);
+    animation-timing-function: cubic-bezier(0.17, -0.70, 0.83, 0.83);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Use something like this when the button is active */
+.zen-downloads-circle-translate {
+  animation: zenDownloadsCircleBounce 0.583s forwards;
+}
+.zen-downloads-arrow {
+  animation: zenDownloadsArrowBounce 0.583s forwards;
+}
+
+/* Set solid and gradient fill opacities when button is active */
+.zen-downloads-bg {
+  fill-opacity: 1 !important;
+}
+
+.zen-downloads-gradient {
+  fill-opacity: 0.1 !important;
+}
