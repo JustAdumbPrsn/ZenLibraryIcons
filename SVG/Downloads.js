@@ -1,7 +1,7 @@
 iconSvg = `
 <svg class="zen-downloads-icon" width="28" height="28" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="64" y2="128" id="zen-downloads-grad-front">
+    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="40" x2="64" y2="168" id="zen-downloads-grad-front">
       <stop offset="0" style="stop-color: rgb(255, 255, 255)"/>
       <stop offset="1" style="stop-color: rgb(0, 0, 0)"/>
     </linearGradient>
