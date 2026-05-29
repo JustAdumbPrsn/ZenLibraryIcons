@@ -7,11 +7,11 @@ iconSvg = `
         <rect x="0" y="0" width="70.04" height="89.36" rx="14" fill="black" />
       </g>
     </mask>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="64" y2="128" id="zen-spaces-grad-back">
+    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="20" x2="64" y2="148" id="zen-spaces-grad-back">
       <stop offset="0" style="stop-color: rgb(255, 255, 255)"/>
       <stop offset="1" style="stop-color: rgb(0, 0, 0)"/>
     </linearGradient>
-    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="0" x2="64" y2="128" id="zen-spaces-grad-front">
+    <linearGradient gradientUnits="userSpaceOnUse" x1="64" y1="20" x2="64" y2="148" id="zen-spaces-grad-front">
       <stop offset="0" style="stop-color: rgb(255, 255, 255)"/>
       <stop offset="1" style="stop-color: rgb(0, 0, 0)"/>
     </linearGradient>
