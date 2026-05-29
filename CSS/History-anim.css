@@ -67,9 +67,6 @@
 .zen-history-dash-translate {
   animation: zenHistoryDashTranslate 0.583s forwards;
 }
-.zen-history-dash-translate {
-  animation: zenHistoryDashTranslate 0.583s forwards;
-}
 
 /* Set solid and gradient fill opacities when button is active */
 .zen-history-bg {
